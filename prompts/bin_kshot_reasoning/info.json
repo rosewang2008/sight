@@ -1,0 +1,32 @@
+{
+    "valid_labels": {
+        "bookmark": {"true":1, "false":0},
+        "clarification": {"true":1, "false":0},
+        "confusion": {"true":1, "false":0},
+        "general": {"true":1, "false":0},
+        "na": {"true":1, "false":0},
+        "non_english": {"true":0, "false":1},
+        "personal_experience": {"true":1, "false":0},
+        "potential_mistake": {"true":1, "false":0},
+        "pedagogy": {"true":1, "false":0},
+        "gratitude": {"true":1, "false":0},
+        "setup": {"true":1, "false":0}
+    },
+    "cot_labels": [
+        "bookmark",
+        "clarification",
+        "confusion",
+        "general", 
+        "na",
+        "non_english",
+        "personal_experience",
+        "potential_mistake",
+        "pedagogy",
+        "gratitude",
+        "setup"
+    ],
+    "valid_responses": [
+        "true",
+        "false"
+    ] 
+}

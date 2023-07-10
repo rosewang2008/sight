@@ -1,0 +1,32 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to explain (after "Explanation:") and label (after "Label:") whether the comment mentions the user’s personal experience learning or teaching math on their own outside of watching this lecture/series. If it is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.06 Linear Algebra, Spring 2005
+Video name: 1. The Geometry of Linear Equations
+Comment: Amazing! I like linear algebra a lot, I already had this class in college, I keep reading about it and ... I didn't even notice the passing of 40 minutes of the first class you! No wonder MIT is a world reference!
+Task: Does the comment mention the user's personal experience learning or teaching math on their own outside of watching this lecture/series?
+Explanation: Let's go through the sentences one by one until we find one that mentions the user’s personal experience. "Amazing!" expresses the user's opinion about the content, but does not mention their personal experience outside of this lecture. "I like linear algebra a lot, I already had this class in college, I keep reading about it and ... I didn't even notice the passing of 40 minutes of the first class you!" mentions taking this class in college, which is a personal experience for this user outside of watching this lecture or series. Therefore, the label is true.
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: 6.041 Probabilistic Systems Analysis and Applied Probability
+Video name: 14. Poisson Process I
+Comment: I am having a hard time making sense of the notation at 11:22.  I believe the notation should be the conditional probability P(k|t) rather than P(k,t). I interpreted the latter to be the joint probability and if it is the case, the summation over all k of P(k,t) given a fixed t could not be equal to 1. Anyone, please help knock some sense to my head!
+Task: Does the comment mention the user's personal experience learning or teaching math on their own outside of watching this lecture/series?
+Explanation: Let's go through the sentences one by one until we find one that mentions the user’s personal experience. "I am having a hard time making sense of the notation at 11:22." expresses the user's confusion with the lecture content, but not an experience outside of watching this lecture or series. "I believe the notation should be the conditional probability P(k|t) rather than P(k,t)." elaborates what the user is confused about with the lecture, but not a personal experience outside of the lecture or series. "I interpreted the latter to be the joint probability and if it is the case, the summation over all k of P(k,t) given a fixed t could not be equal to 1." elaborates what the user misunderstood, but does not communicate a personal experience outside of watching thie lecture or series. "Anyone, please help knock some sense to my head!" requests for help from others, but does not talk about a personal experience outside of this lecture or series. Therefore, the label is false. 
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.06 Linear Algebra, Spring 2005
+Video name: 21. Eigenvalues and Eigenvectors
+Comment: Wish this guy taught me Math 293 and 294 at Cornell. My guy could barely speak English, let alone explain what we were trying to accomplish. I understood that if we wanted eigenvectors perpendicular to x we'd get lift relative to flow...but this guy would have made the math a bit simpler.
+Task: Does the comment mention the user's personal experience learning or teaching math on their own outside of watching this lecture/series?
+Explanation: Let's go through the sentences one by one until we find one that mentions the user’s personal experience. "Wish this guy taught me Math 293 and 294 at Cornell." mentions the user's own math classes at a different university. This is a personal experience related to learning outside of this video and lecture series. Therefore, the label is true.
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment mention the user's personal experience learning or teaching math on their own outside of watching this lecture/series?
+Explanation:

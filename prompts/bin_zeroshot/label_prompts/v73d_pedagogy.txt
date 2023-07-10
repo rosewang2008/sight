@@ -1,0 +1,7 @@
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+
+If the statement below is true, please respond "true"; otherwise, please respond "false":
+The comment explicitly mentions a pedagogical method, which includes but is not limited to the use of examples, applications, worked out problems, proofs, visualizations, elaboration, step-by-step explanation, reiteration, and analogies.

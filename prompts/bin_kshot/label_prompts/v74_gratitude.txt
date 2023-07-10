@@ -1,0 +1,29 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to label whether the comment contains the word "thanks" or "thank you" or "thank". If it is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.650 Statistics for Applications, Fall 2016
+Video name: 15. Regression (cont.)
+Comment: Thank you for the lectures, could you please state what topics did Lectures 10 and 16 covered? So we can research them separately.
+Task: Does the comment contains the word "thanks" or "thank you" or "thank"?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.100A Real Analysis, Fall 2020
+Video name: Lecture 1: Sets, Set Operations and Mathematical Induction
+Comment: "Keep up the good work🙏
+Task: Does the comment contains the word "thanks" or "thank you" or "thank"?
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.01 Single Variable Calculus, Fall 2006
+Video name: Lec 2 | MIT 18.01 Single Variable Calculus, Fall 2007
+Comment: Thanks! I prepared my high school final exam from this lecture. This really helped me!!
+Task: Does the comment contains the word "thanks" or "thank you" or "thank"?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment contains the word "thanks" or "thank you" or "thank"?
+Label:

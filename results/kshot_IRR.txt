@@ -1,0 +1,100 @@
+Label: general
+H1-H2: 0.7538169189437127
+Average H-M: 0.5009295406963732
+
+Label: confusion
+H1-H2: 0.9100204498977505
+Average H-M: 0.6890547319147734
+
+Label: pedagogy
+H1-H2: 0.7870665815783876
+Average H-M: 0.5237023716951789
+
+Label: setup
+H1-H2: 0.9505703422053232
+Average H-M: 0.74820134696762
+
+Label: gratitude
+H1-H2: 0.9215062026567131
+Average H-M: 0.8496865220369553
+
+Label: personal_experience
+H1-H2: 0.7430830039525691
+Average H-M: 0.5741601380958704
+
+Label: clarification
+H1-H2: 0.8297619047619047
+Average H-M: 0.16241190289741586
+
+Label: non_english
+H1-H2: 0.9374726716222125
+Average H-M: 0.6422556045348063
+
+Label: na
+H1-H2: 0.7368974399411239
+Average H-M: 0.49890162086438045
+
+Saved plot to results/regression_bin_kshot.pdf
+Label: general
+H1: 60.0
+H2: 78.0
+M: 39.0
+Count of at least 1 positive annotation from humans: 82
+Percentage of positive annotations from humans: 28.37%
+
+Label: confusion
+H1: 58.0
+H2: 53.0
+M: 33.0
+Count of at least 1 positive annotation from humans: 60
+Percentage of positive annotations from humans: 20.76%
+
+Label: pedagogy
+H1: 19.0
+H2: 16.0
+M: 22.0
+Count of at least 1 positive annotation from humans: 21
+Percentage of positive annotations from humans: 7.27%
+
+Label: setup
+H1: 11.0
+H2: 10.0
+M: 9.0
+Count of at least 1 positive annotation from humans: 11
+Percentage of positive annotations from humans: 3.81%
+
+Label: gratitude
+H1: 38.0
+H2: 35.0
+M: 20.0
+Count of at least 1 positive annotation from humans: 39
+Percentage of positive annotations from humans: 13.49%
+
+Label: personal
+H1: 22.0
+H2: 20.0
+M: 36.0
+Count of at least 1 positive annotation from humans: 26
+Percentage of positive annotations from humans: 9.0%
+
+Label: clarification
+H1: 6.0
+H2: 6.0
+M: 30.0
+Count of at least 1 positive annotation from humans: 7
+Percentage of positive annotations from humans: 2.42%
+
+Label: nonenglish
+H1: 16.0
+H2: 19.0
+M: 34.0
+Count of at least 1 positive annotation from humans: 19
+Percentage of positive annotations from humans: 6.57%
+
+Label: na
+H1: 113.0
+H2: 97.0
+M: 73.0
+Count of at least 1 positive annotation from humans: 123
+Percentage of positive annotations from humans: 42.56%
+

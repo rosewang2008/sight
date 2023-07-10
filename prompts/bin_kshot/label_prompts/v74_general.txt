@@ -1,0 +1,29 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to label whether the comment expresses a general sentiment/adjective about or expresses a *general/big-picture* opinion about the video's *content* and/or about the teaching/professional characteristics of the *instructor*. If it is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.06 Linear Algebra, Spring 2005
+Video name: 34. Final Course Review
+Comment: Absolutely well done and definitely keep it up!!! 👍👍👍👍👍👍👍
+Task: Does the comment express a general opinion about the video's content and/or about the teaching/professional characteristics of the instructor?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.02 Multivariable Calculus, Fall 2007
+Video name: Lec 3: Matrices; inverse matrices | MIT 18.02 Multivariable Calculus, Fall 2007
+Comment: Ideally, do you learn multivariable calculus first or linear algebra? A lot of stuff here seems to be based on 18.06.
+Task: Does the comment express a general opinion about the video's content and/or about the teaching/professional characteristics of the instructor?
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.02 Multivariable Calculus, Fall 2007
+Video name: Lec 16: Double integrals | MIT 18.02 Multivariable Calculus, Fall 2007
+Comment: This video is very helpful, i appreciate the help.
+Task: Does the comment express a general opinion about the video's content and/or about the teaching/professional characteristics of the instructor?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment express a general opinion about the video's content and/or about the teaching/professional characteristics of the instructor?
+Label:

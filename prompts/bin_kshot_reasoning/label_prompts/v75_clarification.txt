@@ -1,0 +1,32 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to explain (after "Explanation:") and label (after "Label:") whether the comment clarifies someone's *math-related* misunderstanding or elaborates content from the video, and the comment includes an `@` that is immediately followed by a username. If this is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.01 Single Variable Calculus, Fall 2006
+Video name: Lec 3 | MIT 18.01 Single Variable Calculus, Fall 2007
+Comment: @michalchik it's the math dragon theorem
+Task: Does the comment clarify someone's *math-related* misunderstanding or elaborate content from the video?
+Explanation: Let's go through the sentences one by one until we find one that meets the criterion. "@michalchik it's the math dragon theorem" tags another user, and seems to respond to a question from this user. Responding to a question is a form of clarification. Therefore, the label is true.
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.02 Multivariable Calculus, Fall 2007
+Video name: Lec 23: Flux; normal form of Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007
+Comment: 30:00, the way to remember it is that the work is a straightforward dot product of F with <dx, dy>, M goes with x and N goes with y and we add, and the flux is a dot product of F with the same vector rotated pi/2 so N goes with x and a minus sign with few choices left for M. Auroux missed a nice opportunity at the beginning to clarify the sign convention for flux by foreshadowing the result for closed curves with + being from the inside, out. I'm not faulting anyone, I couldn't give a lecture on this and keep possession of both my hands when erasing blackboards operated by hazardous machines. If he loses his hands, he'll never erase anything again. Be careful out there, Denis, we don't want to lose a great teacher.
+Task: Does the comment clarify someone's *math-related* misunderstanding or elaborate content from the video?
+Explanation: Let's go through the sentences one by one until we find one that meets the criterion. "30:00, the way to remember it is that the work is a straightforward dot product of F with <dx, dy>, M goes with x and N goes with y and we add, and the flux is a dot product of F with the same vector rotated pi/2 so N goes with x and a minus sign with few choices left for M." does not contain any @ symbol. "Auroux missed a nice opportunity at the beginning to clarify the sign convention for flux by foreshadowing the result for closed curves with + being from the inside, out." also does not contain the @ symbol. "Also  I'm not faulting anyone, I couldn't give a lecture on this and keep possession of both my hands when erasing blackboards operated by hazardous machines." also does not contain the @ symbol. "If he loses his hands, he'll never erase anything again. Be careful out there, Denis, we don't want to lose a great teacher." also does not contain the @ symbol. Therefore the label is false.
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.01 Single Variable Calculus, Fall 2006
+Video name: Lec 22 | MIT 18.01 Single Variable Calculus, Fall 2007
+Comment: @KatherineRogers Actually, if a constant k=1/1m is used, then in the final formula for V you will end up with subtracting m^1 from m^2 which is apparently not correct.
+Task: Does the comment clarify someone's *math-related* misunderstanding or elaborate content from the video?
+Explanation: Let's go through the sentences one by one until we find one that meets the criterion. "@KatherineRogers Actually, if a constant k=1/1m is used, then in the final formula for V you will end up with subtracting m^1 from m^2 which is apparently not correct." contains the @ symbol and seems to correct the other user's understanding of the math formula. Correcting someone's understanding of the math formula is a form of clarification. Therefore, the label is true.
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment clarify someone's *math-related* misunderstanding or elaborate content from the video?
+Explanation:

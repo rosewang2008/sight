@@ -1,0 +1,29 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to label whether the comment mentions the lecture’s physical teaching setup, which includes but is not limited to the chalk, board, microphone or audio-related aspects, and camera-related aspects (e.g., angle). If it is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.100A Real Analysis, Fall 2020
+Video name: Lecture 1: Sets, Set Operations and Mathematical Induction
+Comment: Thanks for posting this course, the instructor is great. If I may, there is only one request, in the future if the camera could move less frequently, the camera is following the instructor too closely, making me a bit dizzy.
+Task: Does the comment mention the lecture’s physical teaching setup?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: 6.041 Probabilistic Systems Analysis and Applied Probability
+Video name: 5. Discrete Random Variables I
+Comment:A ""random variable is a function in programming"".... mic drop!
+Task: Does the comment mention the lecture’s physical teaching setup?
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.01 Single Variable Calculus, Fall 2006
+Video name: Lec 30 | MIT 18.01 Single Variable Calculus, Fall 2007
+Comment: The mic noise and hiss is distracting in this lecture, I hope someone could fix it ..
+Task: Does the comment mention the lecture’s physical teaching setup?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment mention the lecture’s physical teaching setup?
+Label:

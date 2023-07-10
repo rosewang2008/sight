@@ -1,0 +1,29 @@
+Given a user comment on YouTube from a math MIT OCW video, your task is to label whether the comment asks a specific mathematical question and/or points out a mathematical mistake in the video. If it is true, then label "true"; otherwise, label "false".
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.01 Single Variable Calculus, Fall 2006
+Video name: Lec 35 | MIT 18.01 Single Variable Calculus, Fall 2007
+Comment: can't L'Hopital's rule be explained geometricly? what about the functions curves' tangancy ?
+Task: Does the comment ask a specific mathematical question and/or points out a mathematical mistake in the video?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.06 Linear Algebra, Spring 2005
+Video name: 14. Orthogonal Vectors and Subspaces
+Comment: Just I have wondered. Are they student of MIT? Why are they so silent??????
+Task: Does the comment ask a specific mathematical question and/or points out a mathematical mistake in the video?
+Label: false
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: MIT 18.100A Real Analysis, Fall 2020
+Video name: Lecture 7: Convergent Sequences of Real Numbers
+Comment: There is a mistake in lecture notes, example 71. Example in the lecture notes picks epsilon_0=1/2 and then proceeds with 1=|(-1)^M-(-1)^(M+1)|. This is wrong. Epsilon should be 1; and the expression with absolute values evaluates to 2. The lecture video is correct, the lecture notes are not.
+Task: Does the comment ask a specific mathematical question and/or points out a mathematical mistake in the video?
+Label: true
+
+Consider a YouTube comment from the math MIT OCW video below:
+Playlist name: {playlistName}
+Video name: {videoName}
+Comment: {comment}
+Task: Does the comment ask a specific mathematical question and/or points out a mathematical mistake in the video?
+Label:
