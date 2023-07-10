@@ -271,6 +271,86 @@
       </div>
       <br><hr>
 
+      <center><h1>SIGHT dataset</h1></center>
+      <div style="width:800px; margin:0 auto" align="justify">
+        <p>
+          SIGHT contains <b>288 math lecture transcripts and 15,784 comments</b> collected from the Massachusetts Institute of Technology OpenCourseWare (MIT OCW) YouTube channel.
+          Below is an example of what the transcripts and user comments look like.
+        </p>
+        <center><h2>Lecture transcripts</h2></center>
+        <!-- Code snippet of transcript -->
+        <p>
+          Here is an example of a lecture transcript in our dataset---this is from the course 18.065: Matrix Methods in Data Analysis, Signal Processing, and Machine Learning.
+        </p>
+        <div class="layered-paper-big">
+          <pre align=left style="font-size:14px" width=800px><code>[...] OK, just as we're getting started, I thought I'd add a few words about a 
+question that came up after class. Suppose in that discussion last time, where 
+you were given three, you were given a distance matrix, you were given the distance 
+between x1 and x2, between x2 and x3, and between x1 and x3, and you wanted to find 
+points that satisfied that. Well, we're going to fail on this example, because if 
+the distance here is 1, the distance here is 1, then by the triangle inequality, 
+the distance from x1 to x3 could not be more than 2. And when we square it, it 
+could not be more than 4. And here it's 6. So what's going to happen? What goes 
+wrong in that case? Yeah, I hadn't commented on that, and I'm not sure that the 
+paper that I referenced does so. So I had to do a little search back in the 
+literature, because people couldn't overlook this problem. So this is the triangle 
+inequality fails. And it's not going to help to go into 10 dimensions, because the 
+triangle inequalities doesn't change. And it's still there in 10 dimensions, and 
+we're still failing. So what happens? Well, what could happen? Do you remember, and 
+you'll have to remind me, the key equation. You remember we had an equation 
+connecting the matrix. [...]</code></pre>
+        </div>
+        <br/>
+        <center><h2>User comments</h2></center>
+        <p>
+          We develop a rubric of different feedback categories and label each comment with whether the category applies. 
+          Here are the feedback categories and examples.
+        </p>
+        <a href="assets/example_comments.png"><img src="assets/example_comments.png" width="800px" padding="10px"></img></a>
+        <p>
+          Many categories can apply to a given comment. Take for instance the comment below. Thus, in our dataset, each comment is annotated as a binary classification task per category, i.e., does this category apply to this comment?
+        </p>
+        <a href="assets/multiple_labels.png"><img src="assets/multiple_labels.png" width="800px"></img></a>
+      </div>
+      <br><hr>
+
+      <center><h1>Annotating at Scale</h1></center>
+      <div style="width:800px; margin:0 auto" align="justify">
+        <p>
+          The challenge with online student feedback is that it is <b>unstructured</b> and <b>abundant</b>. This makes it difficult for teachers to learn and improve. Our work investigates ways to automatically synthesize insights and learn from this abundance of student feedback in online educational settings. We propose a set of best practices for using large language models (LLMs) to cheaply classify the comments at scale. In particular, we use GPT-3.5-turbo-0301 to scale annotation of the rubric we've developed and analyze its performance.
+        </p>
+        <center><h2>Some takeaways from our work include...</h2></center>
+          <ul>
+            <li>
+              <b>There is a striking correlation between the model's and humans' annotation! </b> Categories with consistent human annotations (>0.9 inter-rater reliability, IRR) also display higher human-model agreement (>0.7). Categories with less consistent human annotations (0.7-0.8 IRR) correspondingly demonstrate lower human-model agreement (0.3-0.5). 
+              <div  style="padding:20px">
+                <a href="assets/paper_results/correlation.png"><img src="assets/paper_results/correlation.png" width="600px"></img></a>
+              </div>
+            </li>
+            <li>
+              <b>Auxiliary information has variable effects on annotation across the categories.</b> For example, adding 3-shot examples to the prompt can make the model's performance sometimes worse (rf. `3-shot` on `clarification`), sometimes better (rf. `3-shot` on `pedagogy`).
+              <div  style="padding:20px">
+                <a href="assets/paper_results/irr_table.png"><img src="assets/paper_results/irr_table.png" width="600px"></img></a>
+              </div>
+            </li>
+            <li>
+              <b>Our error analysis on the categories with low human-model agreement reveals that the model misses subtle references to categories.</b> The table below illustrates a few examples on the `pedagogy` and `personal` categories.
+              <div  style="padding:20px">
+                <a href="assets/paper_results/error_analysis.png"><img src="assets/paper_results/error_analysis.png" width="600px"></img></a>
+              </div>
+            </li>
+            <li>
+              <b>Automated annotations with LLMs nonetheless provide a useful filter on feedback category types with high agreement.</b> The table below reveals the diversity of feedback types within the `confusion` category, identified from the 15k comments in SIGHT.
+              <br />
+              <div  style="padding:20px">
+                <a href="assets/paper_results/confusion_examples.png"><img src="assets/paper_results/confusion_examples.png" width="600px"></img></a>
+              </div>
+            </li>
+          </ul>
+        </p>
+        <center><h2>For more details, please check out our paper linked below!</h2></center>
+      </div>
+
       <center><h1>Paper and BibTeX</h1></center>
       <table align=center width=800px>
         <tr>
