@@ -1,7 +1,0 @@
-Consider a YouTube comment from the math MIT OCW video below:
-Playlist name: {playlistName}
-Video name: {videoName}
-Comment: {comment}
-
-If the statement below is true, please respond "true"; otherwise, please respond "false":
-The comment expresses a joke or is a troll comment.

@@ -1,7 +1,0 @@
-Consider a YouTube comment from the math MIT OCW video below:
-Playlist name: {playlistName}
-Video name: {videoName}
-Comment: {comment}
-
-If the statement below is true, please respond "true"; otherwise, please respond "false":
-The comment expresses a general sentiment/adjective about or expresses a *general/big-picture* opinion about the video's *content* and/or about the teaching/professional characteristics of the *instructor*.

@@ -1,7 +1,0 @@
-Consider a YouTube comment from the math MIT OCW video below:
-Playlist name: {playlistName}
-Video name: {videoName}
-Comment: {comment}
-
-If the statement below is true, please respond "true"; otherwise, please respond "false":
-The comment mentions the lecture’s physical teaching setup, which includes but is not limited to the chalk, board, microphone or audio-related aspects, and camera-related aspects (e.g., angle). 

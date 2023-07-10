@@ -1,7 +1,0 @@
-Consider a YouTube comment from the math MIT OCW video below:
-Playlist name: {playlistName}
-Video name: {videoName}
-Comment: {comment}
-
-If the statement below is true, please respond "true"; otherwise, please respond "false":
-The comment mentions the user’s personal experience learning or teaching math on their own outside of watching this lecture/series.
