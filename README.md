@@ -1,6 +1,6 @@
 # SIGHT: A Large Annotated Dataset on Student Insights Gathered from Higher Education Transcripts
 
-[Project Page](TODO), [Paper](https://arxiv.org/pdf/2306.09343.pdf), [Poster](assets/poster.pdf)
+[Project Page](https://rosewang2008.github.io/sight/), [Paper](https://arxiv.org/pdf/2306.09343.pdf), [Poster](assets/poster.pdf)
 
 Authors: Rose E. Wang*, Pawan Wirawarn*, Noah Goodman and Dorottya Demszky
 
