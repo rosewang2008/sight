@@ -39,7 +39,7 @@ We conclude by discussing exciting future directions on using online student fee
 
 ## Repository structure
 
-Scripts are in `run_sight.sh` for replicating the annotation and for computing IRR in the paper.
+Scripts are in `run_analysis.sh` for replicating the paper analysis. Please refer to the `prompts` directory for replicating the annotations.
 
 The repo structure:
 
