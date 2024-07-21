@@ -1,6 +1,12 @@
 # SIGHT: A Large Annotated Dataset on Student Insights Gathered from Higher Education Transcripts
 
-[Project Page](https://rosewang2008.github.io/sight/), [Paper](https://arxiv.org/pdf/2306.09343.pdf), [Poster](assets/poster.pdf)
+<p align="center" style="font-size: 1.5em;">
+    <a href="https://huggingface.co/datasets/rose-e-wang/sight">HuggingFace</a> • 
+    <a href="https://rosewang2008.github.io/sight/">Project Page</a> •
+    <a href="https://arxiv.org/pdf/2306.09343.pdf">Paper</a> •
+    <a href="assets/poster.pdf">Poster</a> •
+    <a href="https://www.youtube.com/watch?v=Yt-2jLJLKjI">Video</a>
+</p>
 
 Authors: Rose E. Wang*, Pawan Wirawarn*, Noah Goodman and Dorottya Demszky
 
